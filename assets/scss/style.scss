@@ -942,7 +942,7 @@ button{
   }
   .products__content{
     grid-template-columns: repeat(3, 262px);
-    justify-content: initial;
+    justify-content: center;
     column-gap: 5rem;
   }
   .products .products__container .products__content .products__card{
@@ -1049,8 +1049,7 @@ button{
   display: grid;
   place-items: center;
   z-index: 1000;
-
-  .load__gif{
-    width: 210px;
-  }
+}
+.load__gif{
+  width: 210px;
 }
